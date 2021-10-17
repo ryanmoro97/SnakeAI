@@ -1,0 +1,18 @@
+Proposal: AI snake game
+
+Wonbin Jeong
+Ryan Moro
+
+Description:
+A player plays against a computer that finds the shortest path to the pellet
+
+Milestones:
+    1. Create the snake game itself
+    2. Make graph of the map
+    3. Implement Dijkstras
+    4. Implement the AI
+    5. Implement scores using BST
+    6. Clean up code
+
+Extras: 
+    1. implement different map levels 
