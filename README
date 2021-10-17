@@ -1,50 +1,15 @@
-Wonbin Jeong 1505321
-Ryan Moro 1482949
+# SnakeAI
 
-CMPUT 275 Wi19, Final Project "Snake Game"
+A classic snake game, but the player will be playing against an "AI" that will find the shortest path to the pellet. 
+The map has a size of 31x21, and you need to try to get more pellets than the snake without dying. 
+If the enemy snake gets the pellets first, you will lose points! 
 
-Description:
-    - This is a classic snake game, but the player will be playing against an "AI" that will find the shortest path to the pellet. The map has a size of 31x21, and you need to try to get more pellets than the snake without dying. If the enemy snake gets the pellets first, you will lose points! 
-    - The game was implemented using graphs, and assigned vertices and edges throughout the map like a grid, and dikjstra's algorithm is used by the computer to calculate the shortest path.
-    - The game is made using communications between the server (computer) and the client (arduino). 
-        - The server calculates/sends the shortest paths and uses BST to organize scores
-        - The client plays the game and sends the coordinates/scores+names
+The game was implemented using graphs, and assigned vertices and edges throughout the map like a grid, 
+and dikjstra's algorithm is used by the computer to calculate the shortest path.
 
-Copied Code: These files in the Server file were copied and modified from assignment 2 and class
-    - bstaux.h
-    - bstmap.h - added code
-    - digraph.cpp
-    - digraph.h
-    - dijkstra.cpp
-    - dijkstra.h
-    - heap.h
-    - serialport.cpp
-    - serialport.h
-    - server.cpp - code modified
-    - server_util.cpp - added code
-    - server_util.h - added code
-    - wdigraph.h
-
-Files Included:
-    - Sever File:
-        - bstaux.h
-        - bstmap.h
-        - digraph.cpp
-        - digraph.h
-        - dijkstra.cpp
-        - dijkstra.h
-        - heap.h
-        - serialport.cpp
-        - serialport.h
-        - server.cpp
-        - server_util.cpp
-        - server_util.h
-        - wdigraph.h
-
-    - Client File:
-        - playSnake.cpp
-        - playSnake.h
-        - snake.cpp
+The game is made using communications between the server (computer) and the client (arduino). 
+    - The server calculates/sends the shortest paths and uses BST to organize scores
+    - The client plays the game and sends the coordinates/scores+names
 
 
 Running Instructions:
