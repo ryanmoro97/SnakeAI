@@ -1,3 +1,4 @@
+#SnakeAI
 
 A classic snake game, but the player will be playing against an "AI" that will find the shortest path to the pellet. 
 The map has a size of 31x21, and you need to try to get more pellets than the snake without dying. 
